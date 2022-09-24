@@ -1,15 +1,15 @@
 wow = new WOW({
   boxClass: 'wow',
-  // ���û�����ʱ��ʾ���ؿ��������
+  // 当用户滚动时显示隐藏框的类名称
   animateClass: 'animate__animated',
-  // ���� CSS �����������ƣ�������Ĭ��Ϊ"animate.css"�⣩
+  // 触发 CSS 动画的类名称（动画库默认为"animate.css"库）
   offset: 0,
-  // ����������ӿڵײ������ؿ򶥲�֮��ľ��롣
-  // ���û�����������˾���ʱ������ʾ���صĿ�
+  // 定义浏览器视口底部与隐藏框顶部之间的距离。
+  // 当用户滚动并到达此距离时，将显示隐藏的框。
   mobile: false,
-  // ���ƶ��豸�ϴ�/�ر�wow.js��
-  // �����Դ���������Ч��
+  // 在移动设备上打开/关闭wow.js。
+  // 经测试此项配置无效。
   live: true
-  // ��ҳ���ϼ���µ� wow.jsԪ�ء�
+  // 在页面上检查新的 wow.js元素。
 })
 wow.init();
